@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/meet_food_yt
+    username: root
+    password: Lumad
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+secretKey: 863AB61CE5EFD127E16F2FFDCDA2B02F825AEAE63418AE8C0003875E9FE83AE9
